@@ -30,3 +30,4 @@ for i in range (int(numvectors)):
         print("Ingresaremos la magnitud del vector.")
          magnitudVi=0
         validMag=0
+        while validMag==0:
