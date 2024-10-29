@@ -35,4 +35,5 @@ for i in range (int(numvectors)):
             if magnitudVi.count(".")!=1:
                 print("Los enteros y los decimales deben estar separados por un punto.")
                 validMag=0
+            if magnitudVi.count(".")==1:
                 
