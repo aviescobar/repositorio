@@ -29,3 +29,4 @@ for i in range (int(numvectors)):
         #Recordando que una magnitud es positiva y que los ángulos directores indican su dirección.
         print("Ingresaremos la magnitud del vector.")
          magnitudVi=0
+        validMag=0
