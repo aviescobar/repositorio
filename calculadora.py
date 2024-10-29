@@ -24,3 +24,4 @@ for i in range (int(numvectors)):
     print(" ")
 
     if opInfo=="a":
+         print("Usted ha seleccionado la opción \"a.- Magnitud y Cosenos Directores\"")
