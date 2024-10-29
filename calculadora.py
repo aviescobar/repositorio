@@ -55,3 +55,4 @@ for i in range (int(numvectors)):
                     print("\033[1;31m"+"**"+"\033[4;30m"+"Los enteros y los decimales deben estar separados por un punto."+"\033[0;m")
                     validAlpha=0
                 if alpha.count(".")==1:
+                    if (not(alpha.split(".")[0].isdigit())) or (not(alpha.split(".")[1].isdigit())):
