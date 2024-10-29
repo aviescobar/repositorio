@@ -15,3 +15,4 @@ while not(numvectors.isdigit()) or not(int(numvectors)>0):
 vectoresinfo=[]
 opValInfo=["a","b","c","1","2"]
 for i in range (int(numvectors)):
+    infoVectori=[i+1]
