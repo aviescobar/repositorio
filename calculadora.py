@@ -32,3 +32,5 @@ for i in range (int(numvectors)):
         validMag=0
         while validMag==0:
             magnitudVi = input("\033[1;32m"+"Ingrese la magnitud del vector separando los enteros de los decimales con un punto (.): "+"\033[0;m")
+            if magnitudVi.count(".")!=1:
+                
