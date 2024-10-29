@@ -49,4 +49,5 @@ for i in range (int(numvectors)):
         correctAngles=False
         while correctAngles==False:
             validAlpha=0
+            while validAlpha==0:
      
