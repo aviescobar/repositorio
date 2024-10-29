@@ -62,3 +62,4 @@ for i in range (int(numvectors)):
                         if (float(alpha)<0) or (float(alpha)>180):
                             print("\033[1;31m"+"**"+"\033[4;30m"+"Lo sentimos, lo que has ingresado no es un ángulo válido, debe estar entre 0 y 180 grados, inténtalo de nuevo."+"\033[0;m")
                             validAlpha=0
+                        if (float(alpha)<=180) and (float(alpha)>=0):
