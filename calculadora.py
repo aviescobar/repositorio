@@ -42,3 +42,4 @@ for i in range (int(numvectors)):
                 if (magnitudVi.split(".")[0].isdigit()) and (magnitudVi.split(".")[1].isdigit()):
                     validMag = 1
         infoVectori.append(float(magnitudVi))
+        print("A continuación ingresaremos sus cosenos directores\nNo olvides que solo pueden ir de 0 a 180 grados y que la suma de sus cosenos al caudrado debe ser 1.")
