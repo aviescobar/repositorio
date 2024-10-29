@@ -53,3 +53,4 @@ for i in range (int(numvectors)):
                 alpha = input("\033[1;32m"+"Ingrese el ángulo alpha (ángulo con el eje X) separando los enteros de los decimales con un punto (.): "+"\033[0;m")
                 if alpha.count(".")!=1:
                     print("\033[1;31m"+"**"+"\033[4;30m"+"Los enteros y los decimales deben estar separados por un punto."+"\033[0;m")
+                    validAlpha=0
