@@ -46,4 +46,5 @@ for i in range (int(numvectors)):
         alpha = 0
         beta = 0
         gamma = 0
+        correctAngles=False
      
