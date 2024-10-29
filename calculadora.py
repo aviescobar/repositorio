@@ -41,3 +41,4 @@ for i in range (int(numvectors)):
                     validMag = 0
                 if (magnitudVi.split(".")[0].isdigit()) and (magnitudVi.split(".")[1].isdigit()):
                     validMag = 1
+        infoVectori.append(float(magnitudVi))
