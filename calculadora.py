@@ -26,3 +26,5 @@ for i in range (int(numvectors)):
     if opInfo=="a":
          print("Usted ha seleccionado la opción \"a.- Magnitud y Cosenos Directores\"")
         infoVectori.append("a")
+        #Recordando que una magnitud es positiva y que los ángulos directores indican su dirección.
+        print("Ingresaremos la magnitud del vector.")
