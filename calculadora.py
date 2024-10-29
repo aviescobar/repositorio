@@ -47,4 +47,5 @@ for i in range (int(numvectors)):
         beta = 0
         gamma = 0
         correctAngles=False
+        while correctAngles==False:
      
